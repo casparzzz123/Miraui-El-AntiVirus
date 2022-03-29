@@ -32,6 +32,10 @@ try:
                         found = found + 1
                         print("found a virus")
                 ## checks for msg box virus
+                    if word == "msg":
+                        found = found + 1
+                        print("found a virus")
+                ## checks for windows register virus
                     if word == "reg":
                         found = found + 1
                         damage = damage + 1
